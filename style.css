@@ -1,0 +1,406 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* <!-- Header-Section --> */
+
+.navbar .line-bar {
+    border-right: 1px solid #bbb8b8;
+    padding: 8px;
+}
+
+header {
+    background-color: #fff;
+}
+
+body {
+    background-color: rgb(234, 242, 251);
+}
+
+@media(max-width:900px) {
+    .navbar .collapse .navbar-nav {
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+/* banner-section */
+.banner-section .bn-sec {
+    margin: 24px 0px;
+
+}
+
+.all-icons {
+    /* border: 2px solid red; */
+    width: 28%;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0 0 18px -5px rgba(0, 0, 0, 0.15);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 1rem;
+}
+
+/* <!--Start-mainbox--> */
+
+.mainbox {
+    padding: 1.5rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 26px -6px rgba(0, 0, 0, 0.15);
+    /* margin-bottom: 1.5rem; */
+    /* width: 100%; */
+    background: #fff;
+
+}
+
+.mainbox h4 {
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+    line-height: 1.35;
+    color: #2a3c73;
+}
+
+.mainbox p {
+    color: #6c757d;
+    font-size: 0.775;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.box {
+
+    border: 1.5px solid #f0f0f0;
+    padding: 1rem 1.25rem;
+    border-radius: 0.5rem;
+    margin-bottom: 12px;
+
+}
+
+.height-box {
+    height: 84px;
+}
+
+.height-box-top {
+    /* border: 2px solid red; */
+    height: 128px;
+}
+
+
+.box p {
+    font-size: 10.8px;
+    color: #6c757d;
+    font-weight: 600;
+    transition: 0.5s ease-out;
+    line-height: 1.5rem;
+}
+
+.main-btn {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2a3c73;
+    border: 1px solid #2a3c73;
+    text-transform: uppercase;
+    transition: all 0.25s;
+    border-radius: 0.35rem;
+    height: 37.72px;
+    font-weight: 600;
+    gap: 0.5rem;
+    padding: 0.5rem 0.875rem;
+    font-size: 0.8rem;
+    width: 20%;
+    margin-top: 14px;
+}
+
+
+
+/* .piechart-box */
+.piechart-box {
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 26px -6px rgba(0, 0, 0, 0.15);
+    /* margin-bottom: 1.5rem; */
+    width: 30%;
+    background: #fff;
+    margin-left: 30px;
+
+
+
+}
+
+.chart-box {
+    position: relative;
+    top: 18%;
+}
+
+.chart-box span {
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+    line-height: 1.35;
+    color: #2a3c73;
+    padding: 0 20px;
+    font-size: 12px;
+}
+
+/* <!-- Revenue-box --> */
+.big-box {
+
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.Revenue {
+    /* display: flex; */
+
+    /* justify-content: space-around; */
+    width: 100%;
+    /* height: 160px; */
+    margin-right: 80px;
+}
+
+
+
+.earning-box {
+    /* width: 300px;
+    height: 160px; */
+    border: 1.5px solid #f0f0f0;
+    padding: 20px;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 0 26px -6px rgba(0, 0, 0, 0.15);
+    width: 260px;
+    height: 80%;
+}
+
+.Revenue .earning-box h6 {
+    font-size: 0.90rem;
+    color: #1f1e1e;
+    font-weight: 600;
+}
+
+.Revenue .earning-box .progress {
+    /* border: 2px solid red; */
+    height: 4px;
+
+
+}
+
+.Revenue .earning-box .progress .progress-bar {
+    background-color: rgba(78, 161, 53, 0.85);
+}
+
+.doller {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Revenue .earning-box h4 {
+    color: #2a3c73;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.5s ease-out;
+    margin-top: 10px;
+}
+
+/* <!-- Progress-section --> */
+
+.range-box .Revenue {
+    height: 100%;
+    margin-left: 110px;
+}
+
+/* barchart-section */
+
+.feedback-btn {
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.feedback-btn button {
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 24px;
+    font-size: 12px;
+    color: #2a3c73;
+    background-color: transparent;
+    border: 2px solid #2a3c73;
+    transition: all 2s ease;
+}
+
+.barchart-section .barchart {
+    border: 1.5px solid #f0f0f0;
+    padding: 20px;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 0 26px -6px rgba(0, 0, 0, 0.15);
+    width: 120%;
+    margin: 20px 0px;
+    margin-left: 10px;
+}
+
+.filter {
+    display: flex;
+
+    align-items: center;
+
+}
+
+.filter h5 {
+    font-family: "Overpass", sans-serif;
+    font-weight: 600;
+    line-height: 1.35;
+    color: #2a3c73;
+    font-size: 14px;
+    padding-top: 14px;
+}
+
+.filter .btn-group {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    margin: 0 10px;
+
+}
+
+.filter .btn-group .btn {
+    color: rgb(153, 152, 152);
+}
+
+.barchart .info {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+
+.info .main-btn {
+    margin-bottom: 10px;
+    padding: 2px 10px;
+    height: 32.72px;
+}
+
+.info input {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 4px;
+    margin: 0 10px;
+    padding: 2px 10px;
+}
+
+
+.info i {
+    color: rgb(153, 152, 152);
+}
+
+/* Placement-section */
+
+.Placement-section {
+    border: 1.5px solid #f0f0f0;
+    padding: 20px;
+    border-radius: 0.5rem;
+    background: #fff;
+    box-shadow: 0 0 26px -6px rgba(0, 0, 0, 0.15);
+    width: 82%;
+    margin: 10px 0px;
+    margin-left: 220px;
+}
+
+.Placement-section .Placement {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.Placement h6 {
+    color: #2a3c73;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s ease-out;
+    margin-top: 20px;
+}
+
+.search-sec input {
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.row-per-page {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* margin: 0 10px; */
+    border-top: 1px solid rgb(204, 204, 204);
+}
+
+.row-per-page p {
+    color: rgb(129, 129, 129);
+    font-size: 12px;
+    margin-top: 18px;
+}
+
+.row-per-page .btn {
+    color: rgb(129, 129, 129);
+    font-size: 12px;
+
+}
+
+.row-per-page i {
+    color: rgb(129, 129, 129);
+    font-size: 12px;
+}
+
+.Description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.Description p {
+    font-size: 12px;
+    padding: 0 10px;
+    color: #212529;
+    font-weight: 600;
+    padding-bottom: 12px;
+
+}
+
+.table-data thead {
+
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.table-data thead tr th {
+    font-size: 12px;
+    padding: 0 10px;
+    color: #212529;
+    font-weight: 600;
+    padding-bottom: 12px;
+}
+
+.table-data tbody tr td {
+    font-size: 12px;
+    padding: 12px 10px;
+    color: #212529;
+    font-weight: 400;
+}
