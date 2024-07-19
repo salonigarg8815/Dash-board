@@ -37,7 +37,7 @@ body {
 }
 
 .all-icons {
-    /* border: 2px solid red; */
+
     width: 28%;
     display: inline-flex;
     flex-direction: column;
@@ -50,15 +50,30 @@ body {
     margin-left: 1rem;
 }
 
+@media (max-width:500px) {
+    .all-icons {
+        width: 70%;
+        /* border: 2px solid red; */
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1rem;
+    }
+
+}
+
 /* <!--Start-mainbox--> */
 
 .mainbox {
     padding: 1.5rem 2rem;
     border-radius: 1rem;
     box-shadow: 0 0 26px -6px rgba(0, 0, 0, 0.15);
-    /* margin-bottom: 1.5rem; */
-    /* width: 100%; */
     background: #fff;
+}
+
+@media (max-width:500px) {
+    .mainbox {
+        margin-bottom: 1rem;
+    }
 
 }
 
@@ -70,22 +85,19 @@ body {
 }
 
 .mainbox p {
-    color: #6c757d;
+    color: #444444;
     font-size: 0.775;
     margin: 0;
     padding: 0;
-    line-height: 1.5rem;
     font-weight: 400;
     cursor: pointer;
 }
 
 .box {
-
     border: 1.5px solid #f0f0f0;
     padding: 1rem 1.25rem;
     border-radius: 0.5rem;
     margin-bottom: 12px;
-
 }
 
 .height-box {
@@ -93,14 +105,13 @@ body {
 }
 
 .height-box-top {
-    /* border: 2px solid red; */
     height: 128px;
 }
 
 
 .box p {
     font-size: 10.8px;
-    color: #6c757d;
+    color: #444444;
     font-weight: 600;
     transition: 0.5s ease-out;
     line-height: 1.5rem;
@@ -121,24 +132,26 @@ body {
     gap: 0.5rem;
     padding: 0.5rem 0.875rem;
     font-size: 0.8rem;
-    width: 20%;
-    margin-top: 14px;
+    margin-top: 10px;
 }
-
-
 
 /* .piechart-box */
 .piechart-box {
     padding: 1rem 1.5rem;
     border-radius: 1rem;
     box-shadow: 0 0 26px -6px rgba(0, 0, 0, 0.15);
-    /* margin-bottom: 1.5rem; */
     width: 30%;
     background: #fff;
     margin-left: 30px;
+}
+
+@media (max-width:500px) {
+    .piechart-box {
+        width: 92%;
+        height: 100%;
 
 
-
+    }
 }
 
 .chart-box {
@@ -157,12 +170,13 @@ body {
 
 /* <!-- Revenue-box --> */
 .big-box {
-
     margin-left: 100px;
     display: flex;
     justify-content: space-around;
     width: 100%;
 }
+
+
 
 .Revenue {
     /* display: flex; */
@@ -218,6 +232,15 @@ body {
     margin-top: 10px;
 }
 
+@media(max-width:800px) {
+    .res {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
 /* <!-- Progress-section --> */
 
 .range-box .Revenue {
@@ -232,6 +255,15 @@ body {
     display: flex;
     justify-content: end;
     align-items: center;
+}
+
+@media(max-width:500px) {
+    .feedback-btn {
+        margin-top: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .feedback-btn button {
@@ -258,6 +290,27 @@ body {
     margin: 20px 0px;
     margin-left: 10px;
 }
+
+@media(max-width:500px) {
+    .barchart-section .barchart {
+        width: 96%;
+    }
+}
+
+/* #barChart {
+ 
+    width: 1000px;
+    height: 400px;
+
+} */
+
+/* @media(max-width:500px) {
+    #barChart {
+        width: 300px;
+        height: 400px;
+
+    }
+} */
 
 .filter {
     display: flex;
@@ -322,6 +375,12 @@ body {
     width: 82%;
     margin: 10px 0px;
     margin-left: 220px;
+}
+
+@media (max-width:500px) {
+    .Placement-section {
+        border: 2px solid red;
+    }
 }
 
 .Placement-section .Placement {
