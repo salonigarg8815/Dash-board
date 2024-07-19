@@ -372,16 +372,9 @@ body {
     border-radius: 0.5rem;
     background: #fff;
     box-shadow: 0 0 26px -6px rgba(0, 0, 0, 0.15);
-    width: 82%;
-    margin: 10px 0px;
-    margin-left: 220px;
 }
 
-@media (max-width:500px) {
-    .Placement-section {
-        border: 2px solid red;
-    }
-}
+
 
 .Placement-section .Placement {
     display: flex;
@@ -462,4 +455,24 @@ body {
     padding: 12px 10px;
     color: #212529;
     font-weight: 400;
+}
+
+@media(max-width:991px) {
+
+    table,
+    thead,
+    tbody,
+    th,
+    td,
+    tr {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+@media(max-width:991px) {
+    .Placement .main-btn {
+        padding: 0 26px;
+    }
 }
