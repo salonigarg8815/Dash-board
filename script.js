@@ -163,7 +163,7 @@ var myChart = new Chart(bar, {
         ]
     },
     options: {
-        responsive: false,
+        responsive: true,
         legend: {
             display: true,
             position: "bottom",
@@ -180,6 +180,10 @@ var myChart = new Chart(bar, {
             fontSize: 12,
             fontColor: " #2a3c73",
             fontWeight: 'bold',
+        },
+        tooltips: {
+            enables: true,
+            backgroundColor: 'rgb(127, 127, 252)'
         },
         animation: {
             duration: 3000,
