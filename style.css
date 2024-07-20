@@ -149,14 +149,13 @@ body {
     .piechart-box {
         width: 92%;
         height: 100%;
-
-
     }
 }
 
 .chart-box {
     position: relative;
     top: 18%;
+
 }
 
 .chart-box span {
@@ -176,18 +175,12 @@ body {
     width: 100%;
 }
 
-
-
 .Revenue {
-    /* display: flex; */
 
-    /* justify-content: space-around; */
     width: 100%;
     /* height: 160px; */
     margin-right: 80px;
 }
-
-
 
 .earning-box {
     /* width: 300px;
@@ -236,16 +229,31 @@ body {
     .res {
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: end;
         flex-direction: column;
+    }
+
+    .earning-box {
+        width: 100%;
     }
 }
 
 /* <!-- Progress-section --> */
-
 .range-box .Revenue {
     height: 100%;
-    margin-left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    width: 37%;
+}
+
+
+
+@media(max-width:800px) {
+    .range-box .Revenue {
+        width: 98%;
+    }
 }
 
 /* barchart-section */
